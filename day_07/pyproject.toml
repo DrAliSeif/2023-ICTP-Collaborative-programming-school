@@ -1,0 +1,34 @@
+[project]
+name = "Resolve-Captcha" #what you write after pip install
+version = "0.0.1" # 0.0.x generaly means it is unstable
+authors = [
+  { name="Ali Farnudi", email="a.farnudi@gmail.com" },
+]
+# usually a one liner
+description = "The solution to day 1 of the 2017 Advent of Code."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["Advent of Code", "captcha", ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  #"numpy > 1.20" 
+]
+
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[project.scripts]
+res-captcha = "resolve_captcha:main"
+
+
+

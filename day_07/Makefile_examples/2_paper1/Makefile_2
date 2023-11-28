@@ -1,0 +1,4 @@
+#makefile example 2
+
+paper1.pdf: paper1.tex
+	pdflatex paper1.tex

@@ -1,0 +1,11 @@
+#Example makefile 4
+
+my_target: file_1
+
+
+#%.pdf: %.tex
+#	pdflatex $^
+
+
+clean:
+	rm -f *.out *aux *bbl *blg *log *toc *.ptb *.tod *.fls *.fdb_latexmk *.lof
